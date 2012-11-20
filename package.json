@@ -1,0 +1,39 @@
+{
+  "name": "notify-bridge-http",
+  "description": "A notify-bridge module for using HTTP as input",
+  "version": "0.1.0",
+  "homepage": "https://github.com/xat/notify-bridge-http",
+  "author": {
+    "name": "Simon Kusterer",
+    "email": "simon@soped.com",
+    "url": "http://soped.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xat/notify-bridge-http.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xat/notify-bridge-http/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/xat/notify-bridge-http/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/notify-bridge-http",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.12",
+    "request": "~2.12.1"
+  },
+  "dependencies": {
+    "express": "~3.0.1"
+  },
+  "keywords": []
+}
