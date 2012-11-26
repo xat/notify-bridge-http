@@ -1,7 +1,7 @@
 {
   "name": "notify-bridge-http",
-  "description": "A notify-bridge module for using HTTP as input",
-  "version": "0.1.0",
+  "description": "An notify-bridge module for using HTTP as input",
+  "version": "0.2.0",
   "homepage": "https://github.com/xat/notify-bridge-http",
   "author": {
     "name": "Simon Kusterer",
@@ -29,11 +29,11 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.3.12",
-    "request": "~2.12.1"
+    "grunt": "~0.3.12"
   },
   "dependencies": {
-    "express": "~3.0.1"
+    "http-auth": ">=1.2.3",
+    "formidable": ">=1.0.11"
   },
-  "keywords": []
+  "keywords": ["notify-bridge"]
 }
